@@ -28,7 +28,8 @@ Uso de IA para analisar se uma imagem é verdadeira ou falsa.
 ## 🤖 Tecnologias Utilizadas
 ChatGPT - Para testar a analise de imagens e fornecer informações sobre ferramentas e outras IAs
 Leonardo.AI - Para obter imagens geradas por IA para fazer o teste no ChatGPT e outras ferramentas
-Site: https://www.aiornot.com/dashboard/home - Ferramenta final para testar se uma imagem é verdadeira ou não.
+Site: https://www.aiornot.com/dashboard/home - Ferramenta para testar se uma imagem é verdadeira ou não.
+Site: https://illuminarty.ai/ - Ferramenta para testar se uma imagem é verdadeira ou não.
 
 ## 🧐 Processo de Criação
 1 - Iniciar um chat no ChatGPT, como ferramenta de IA generativa para fazer a analise de imagens (porque o chat tem esta opção de analise quando vamos digitar um prompt inicialmente)
@@ -61,14 +62,30 @@ Site: https://www.aiornot.com/dashboard/home - Ferramenta final para testar se u
     🔹 Como usar? Acesse https://illuminarty.ai/. Envie a imagem. Ele verifica se há sinais de manipulação digital. ➡ Útil para deepfakes e edições sofisticadas.
 
     Essas ferramentas são um ótimo ponto de partida! Se quiser testar alguma, me avise e podemos interpretar os resultados juntos."
-7 - Fizemos o teste da primeira ferramenta indicada pelo ChatGPT, o site AI or Not (AIORNOT.com), e a ferramenta realmente faz a analise se uma imagem é verdadeira (Likely Human) ou falsa (Likely AI generated.
+7 - Fizemos o teste da primeira ferramenta indicada pelo ChatGPT, o site AI or Not (AIORNOT.com), e a ferramenta realmente faz a analise se uma imagem é verdadeira (Likely Human) ou falsa (Likely AI generated).
+8 - Tentamos testas a ferramenta Hive Moderation, mas seu conteúdo não estava disponível gratuitamente.
+9 - Fizemos o teste da ferramenta Fake Image Detector, e quando subimos uma imagem neste site ele responde qual é a probabilidade da imagem ter sido gerada por IA (Ex: AI Probability 55,9%).
 
 ## 🚀 Resultados
 ChatGPT:
+Não consegue fazer a analise de imagens, mas fez boas indicações de sites com IA que podem auxiliar neste desafio.
 
+AI or Not (AIORNOT.com):
+Ferramenta que informa se a imagem foi gerada por IA ou se é humana.
+Apresentou acerto quando subimos uma foto verdadeira. Pois Respondeu que era humana.
+Apresentou acerto quando subimos uma imagem do Leonardo.AI diretamente, pois informou que a imagem era gerada por IA.
+Apresentou erro quando subimos uma foto tirada pelo celular de uma das imagem gerada por IA no site do Leonardo.AI, pois respondeu que era humana. (tirar foto de imagens falsas pode burlar sua analise como IA).
+
+Fake Image Detector (Illuminarty AI):
+A ferramenta informa qual a probabilidade de uma imagem ser gerada por IA.
+Apresentou um bom indice quando anexamos uma imagem verdadeira. Informou a probabilidade de 5% de ser gerada por IA.
+Apresentou um indice ruim quando anexamos uma imagem bem real que foi gerada pelo Leonardo.AI. Informou a probabilidade de 15% de ser gerada por IA.
+Apresentou um indice ruim quando anexamos uma imagem não tão real que foi gerada pelo Leonardo.AI. Informou a probabilidade de 55% de ser gerada por IA. (poderia ter informado uma probabilidade maior).
+
+Ambas as ferramentas de IA, "AI or Not" e "Fake Image Detector", usadas no desafio tiveram os seus prós e contras, mas atendem a demanda minima do desafio proposto.
 
 ## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+As IAs de analise de imagens ainda tem muito a se desenvolver para que tenhamos uma ferramenta de IA generativa que tenha uma precisão maior em suas analises.
 ```
 
 ### Exemplos e Insigths
@@ -82,3 +99,5 @@ Comente sobre o desafio de criar algo 'natty' com IA.
 [Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
 
 ![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+
+Video sobre o Forensically Beta, do Canal Tutoriais_Photoshop: https://www.youtube.com/watch?v=sW9wgd4LuAU
