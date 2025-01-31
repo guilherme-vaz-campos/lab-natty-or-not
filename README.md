@@ -27,9 +27,10 @@ Uso de IA para analisar se uma imagem é verdadeira ou falsa.
 
 ## 🤖 Tecnologias Utilizadas
 ChatGPT - Para testar a analise de imagens e fornecer informações sobre ferramentas e outras IAs
-Leonardo.AI - Para obter imagens geradas por IA para fazer o teste no ChatGPT e outras ferramentas
+Leonardo.AI - Para obter imagens geradas por IA para fazer o teste no ChatGPT e nas outras ferramentas. Também foi usado para fazer as imagens do Ebook deste desafio.
 Site: https://www.aiornot.com/dashboard/home - Ferramenta para testar se uma imagem é verdadeira ou não.
 Site: https://illuminarty.ai/ - Ferramenta para testar se uma imagem é verdadeira ou não.
+PowerPoint - Utilizado para fazer o Ebook.
 
 ## 🧐 Processo de Criação
 1 - Iniciar um chat no ChatGPT, como ferramenta de IA generativa para fazer a analise de imagens (porque o chat tem esta opção de analise quando vamos digitar um prompt inicialmente)
@@ -65,6 +66,7 @@ Site: https://illuminarty.ai/ - Ferramenta para testar se uma imagem é verdadei
 7 - Fizemos o teste da primeira ferramenta indicada pelo ChatGPT, o site AI or Not (AIORNOT.com), e a ferramenta realmente faz a analise se uma imagem é verdadeira (Likely Human) ou falsa (Likely AI generated).
 8 - Tentamos testas a ferramenta Hive Moderation, mas seu conteúdo não estava disponível gratuitamente.
 9 - Fizemos o teste da ferramenta Fake Image Detector, e quando subimos uma imagem neste site ele responde qual é a probabilidade da imagem ter sido gerada por IA (Ex: AI Probability 55,9%).
+10 - Feito Ebook deste processo de Criação.
 
 ## 🚀 Resultados
 ChatGPT:
